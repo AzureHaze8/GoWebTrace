@@ -54,11 +54,9 @@ GoWebTrace -f urls.txt -p http://127.0.0.1:10808 -o results.csv,results.html
 ![](img/2025-11-07-11-35-34-image.png)
 
 **CSV文件展示**
-
-![](img\Snipaste_2025-11-07_21-09-04.png)
+<img title="" src="img/Snipaste_2025-11-07_21-09-04.png" alt="" data-align="inline">
 
 **HTML文件展示**
-
 <img title="" src="img/Snipaste_2025-11-07_21-08-25.png" alt="" data-align="inline">
 
 ## 📖源码编译
