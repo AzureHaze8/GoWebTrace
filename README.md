@@ -30,7 +30,7 @@
 | `-p` | 单个代理 URL。支持 `http`、`https`、`socks4`、`socks5`。 | /   | `-p http://127.0.0.1:8080` |
 | `-pl` | 默认使用 `config/proxyList.txt` 中的代理列表。 | `false` | `-pl` |
 
-![](file:///F:/A_LearningDocument/CodeProject/GoProject/GoWebTrace/img/Snipaste_2025-11-07_11-42-21.png?msec=1762509875885)
+![](https://github.com/AzureHaze8/GoWebTrace/blob/main/img/Snipaste_2025-11-07_11-42-21.png))
 
 ### 使用示例
 
@@ -137,3 +137,4 @@ go build -o GoWebTrace-linux .
 ## ⚠️ 免责声明
 
 本工具仅用于授权的安全测试和研究目的。使用者应遵守当地法律法规，不得用于非法活动。作者不对使用本工具造成的任何后果承担责任。# GoWebTrace
+
