@@ -127,8 +127,9 @@ go build -o GoWebTrace-linux .
 - `location`: 匹配位置，即在 HTTP 响应的哪个部分进行搜索。
 - `keyword`: 用于匹配的关键字列表，可匹配响应头、标题、正文内容、路径及 Favicon 哈希。
 
-## 🚍项目结构
 
+## 🚍项目结构
+```
   ├── cmd/ # 命令行界面逻辑
   ├── config/ # 配置文件目录
   ├── internal/ # 核心功能目录
@@ -136,10 +137,12 @@ go build -o GoWebTrace-linux .
   ├── main.go # 主程序入口
   ├── go.mod # Go 模块文件
   ├── go.sum # Go 模块依赖文件
+```
 
 ## ⚠️ 免责声明
 
 本工具仅用于授权的安全测试和研究目的。使用者应遵守当地法律法规，不得用于非法活动。作者不对使用本工具造成的任何后果承担责任。# GoWebTrace
+
 
 
 
