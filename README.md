@@ -34,7 +34,7 @@ GoWebTrace 是一款基于 Go 语言开发的轻量级、高性能网站指纹�
 | `-pl` | 默认使用 `config/proxyList.txt` 中的代理列表。 | `false` | `-pl` |
 
 <div align="center">
-  <img src="img/Snipaste_2025-11-07_11-42-21.png" alt="图片描述" width="80%"/>
+  <img src="img/Snipaste_2025-11-07_11-42-21.png" alt="图片描述" height="60%" width="60%"/>
 </div>
 
 ### 使用示例
@@ -144,4 +144,5 @@ go build -o GoWebTrace-linux .
 ## ⚠️ 免责声明
 
 本工具仅用于授权的安全测试和研究目的。使用者应遵守当地法律法规，不得用于非法活动。作者不对使用本工具造成的任何后果承担责任。
+
 
