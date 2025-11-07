@@ -1,6 +1,6 @@
 # GoWebTrace
 
-![](file://F:\A_LearningDocument\CodeProject\GoProject\GoWebTrace\img\Snipaste_2025-11-07_11-41-35.png?msec=1762509875884)GoWebTrace 是一款基于 Go 语言开发的轻量级、高性能网站指纹识别工具。它旨在精确识别 Web 应用程序的技术栈，包括 CMS、Web 框架和服务器软件。通过利用 Go 的并发特性，它可以高效地扫描多个目标。
+![](img/Snipaste_2025-11-07_11-41-35.png)GoWebTrace 是一款基于 Go 语言开发的轻量级、高性能网站指纹识别工具。它旨在精确识别 Web 应用程序的技术栈，包括 CMS、Web 框架和服务器软件。通过利用 Go 的并发特性，它可以高效地扫描多个目标。
 
 ## 📖功能特性
 
@@ -30,7 +30,7 @@
 | `-p` | 单个代理 URL。支持 `http`、`https`、`socks4`、`socks5`。 | /   | `-p http://127.0.0.1:8080` |
 | `-pl` | 默认使用 `config/proxyList.txt` 中的代理列表。 | `false` | `-pl` |
 
-![](https://github.com/AzureHaze8/GoWebTrace/blob/main/img/Snipaste_2025-11-07_11-42-21.png))
+![](img/Snipaste_2025-11-07_11-42-21.png)
 
 ### 使用示例
 
@@ -40,7 +40,7 @@
 GoWebTrace -u http://example.com
 ```
 
-![](file://F:\A_LearningDocument\CodeProject\GoProject\GoWebTrace\img\Snipaste_2025-11-07_11-38-57.png?msec=1762509875884)
+![](img/Snipaste_2025-11-07_11-38-57.png)
 
 **通过 http 代理扫描 URL文件并将结果保存为 CSV 和 HTML：**
 
@@ -48,7 +48,7 @@ GoWebTrace -u http://example.com
 GoWebTrace -f urls.txt -p http://127.0.0.1:10808 -o results.csv,results.html
 ```
 
-![](file://F:\A_LearningDocument\CodeProject\GoProject\GoWebTrace\img\2025-11-07-11-35-34-image.png?msec=1762509875893)
+![](img/2025-11-07-11-35-34-image.png)
 
 ## 📖源码编译
 
@@ -137,4 +137,5 @@ go build -o GoWebTrace-linux .
 ## ⚠️ 免责声明
 
 本工具仅用于授权的安全测试和研究目的。使用者应遵守当地法律法规，不得用于非法活动。作者不对使用本工具造成的任何后果承担责任。# GoWebTrace
+
 
