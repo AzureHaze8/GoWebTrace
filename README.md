@@ -1,7 +1,8 @@
 # GoWebTrace
 
-                  ![](img/Snipaste_2025-11-07_11-41-35.png)
-
+<div align="center">
+  <img src="img/Snipaste_2025-11-07_11-41-35.png" alt="图片描述" width="500"/>
+</div>
 GoWebTrace 是一款基于 Go 语言开发的轻量级、高性能网站指纹识别工具。它旨在精确识别 Web 应用程序的技术栈，包括 CMS、Web 框架和服务器软件。通过利用 Go 的并发特性，它可以高效地扫描多个目标。
 
 ## 📖功能特性
